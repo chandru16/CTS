@@ -1,0 +1,56 @@
+/*StudentClass*/
+package com.cts.inheritance
+public Student
+{
+	private int studId;
+	public int getstudId()
+	{
+		return studId;
+	}
+	public void setStudId(int studId)
+	{
+		this.studId=studId;
+	}
+	String studName;
+	String schoolName;
+	String class;
+	
+	public Student()
+	{
+		
+	}
+	
+	public Student(int id,String name, String sclnme, String clss)
+	{
+		this.studId=id;
+		this.studName=name;
+		this.schoolName=sclnme;
+		this.class=clss;
+	}
+}
+
+/*Daysscholar*/
+package com.cts.inheritance
+public class Daysscholar extends Student 
+{
+	public Daysscholar()
+	{
+		
+	}
+	public Daysscholar(int id,String name,String sclme, String clss)
+	{
+		super(id,name,sclme,clss);
+		System.out.println("Objects of admin Created");
+	}
+}
+
+
+/*Inheritance*/
+package com.cts.inheritance
+public class Inheritance 
+{
+	public static void main(String st[])
+	{
+		Daysscholar ad=new Daysscholar(1234,"Ck","Student","Eleventh");	
+	}
+}
