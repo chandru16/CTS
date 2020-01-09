@@ -1,0 +1,51 @@
+1) String Literal
+
+	* Its like you are actually calling intern()
+	* String str="hi there";
+	  If there already exists a string value"hi there", then str will reference of that string 
+	  and no new String object will be created.
+   String Onbject	
+
+	* String str=new String("hi there");
+	  This is string object. In this method JVM is forced to create a new string reference, even if “Hi there” is in the reference pool.
+	  Therefore, if we compare performance of string literal and string object, string object will always take more time to execute than string literal
+          because it will construct a new string every time it is executed.
+
+2) D/B equals() and ==
+
+	*Main difference between .equals() method and == operator is that one is method and other is operator.
+	*We can use == operators for reference comparison (address comparison) and .equals() method for content comparison. In simple words, == checks if both objects point to the same memory location 
+	 whereas .equals() evaluates to the comparison of values in the objects
+
+3)Subsequence
+
+import java.lang.Math; 
+  
+class Subseq { 
+  
+     
+    public static void main(String args[]) 
+    { 
+  
+        String Str = "Welcome to Cognizant"; 
+  
+        // prints the subsequence from 0-7, exclusive 7th index 
+        System.out.print("Returns: "); 
+        System.out.println(Str.subSequence(0, 7)); 
+    }
+
+} 
+
+Output:
+Returns: Welcome
+
+
+4)replace()
+	String replace(char oldChar, char newChar): It replaces all the occurrences of a oldChar character with newChar character. 
+	For e.g. "pog pance".replace('p', 'd') would return dog dance.
+  replaceall()
+	String replaceAll(String regex, String replacement):
+	 It replaces all the substrings that fits the given regular expression with the replacement String.
+
+5)Singleton Pattern says that just"define a class that has only one instance and provides a global point of access to it".
+
