@@ -1,0 +1,84 @@
+/*program to reverse a string without using string class*/
+
+import java.util.Scanner;
+ 
+public class ReverseString
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Enter string to reverse:");
+        
+        Scanner read = new Scanner(System.in);
+        String str = read.nextLine();
+        String reverse = "";
+        
+        
+        for(int i = str.length() - 1; i >= 0; i--)
+        {
+            reverse = reverse + str.charAt(i);
+        }
+        
+        System.out.println("Reversed string is:");
+        System.out.println(reverse);
+    }
+}
+
+/*program to reverse a string with using string class*/
+
+import java.util.Scanner;
+ 
+public class ReverseString
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Enter string to reverse:");
+        
+        Scanner read = new Scanner(System.in);
+        String str = read.nextLine();
+        
+        StringBuilder sb = new StringBuilder(str);
+        
+        System.out.println("Reversed string is:");
+        System.out.println(sb.reverse().toString());
+    }
+}
+
+
+/*program to print alternative element in 2d*/
+
+class Sample
+ {
+	
+			static void Alternate(int [][] mat, int n) 
+			{ 
+				int sum1 = 0, sum2 = 0; 
+				int cnt=0; 
+				
+				for (int i = 0; i < n; i++) { 
+			
+					for(int j=0;j<n ;j++) 
+					{ 
+						if (cnt % 2 == 0) 
+							System.out.println(mat[i][j]); 
+			
+					cnt++; 
+					} 
+				} 
+			
+				 
+			} 
+		
+			public static void main(String [] args) 
+			{ 
+				int [][]mat = { { 1, 2, 3 }, 
+								{ 4, 5, 6 }, 
+								{ 7, 8, 9 } }; 
+				int n = 3; 
+				Alternate(mat, n); 
+			
+				
+			} 
+
+	} 
+
+	
