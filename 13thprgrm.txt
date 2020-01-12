@@ -1,0 +1,136 @@
+/*Start.java*/
+package sample;
+import java.util.*;
+
+public class Start {
+		
+
+	public static void main(String[] args) {
+		AddProduct p=new AddProduct();
+		FindbyId f=new FindbyId();
+		Getallvalues g=new GetallData();
+		Scanner ss=new Scanner(System.in);
+		System.out.println("Type 1 to Add product...2 to Get Product by Id...3 to Get All Product");
+		int num=ss.nextInt();
+		switch(num)
+		{
+			
+			case 1 :p.add();break;
+			case 2 :f.findbyid();break;
+			case 3 :g.getalldata();break;
+			default :System.out.println("Choose number from 1 to 3");
+		}
+		
+		
+		
+		
+
+	}
+
+}
+
+
+/*Product.java*/
+package sample;
+
+public class Product {
+	private int productid;
+	private String productname;
+	private int productprice;
+	
+	public Product(int productid, String productname, int productprice) {
+		super();
+		this.productid = productid;
+		this.productname = productname;
+		this.productprice = productprice;
+	}
+	public int getProductid() {
+		return productid;
+	}
+	public void setProductid(int productid) {
+		this.productid = productid;
+	}
+	public String getProductname() {
+		return productname;
+	}
+	public void setProductname(String productname) {
+		this.productname = productname;
+	}
+	public int getProductprice() {
+		return productprice;
+	}
+	public void setProductprice(int productprice) {
+		this.productprice = productprice;
+	}
+	@Override
+	public String toString() {
+		return "Product [productid=" + productid + ", productname=" + productname + ", productprice=" + productprice
+				+ "]";
+	}
+
+}
+
+
+/*HashMap.java*/
+package sample;
+import java.util.HashMap;
+import java.util.Random;
+import java.util.Map; 
+public class HashMapp extends Start{
+
+	public static void main(String[] args) {
+	
+		 Random rand = new Random();
+		  int rand_int1 = rand.nextInt(1000); 
+	      int rand_int2 = rand.nextInt(1000); 
+	  
+		Product pdt1=new Product(rand_int1,"Tv",5000);
+		Product pdt2=new Product(rand_int1,"Dvd",7000);
+		HashMap<Product, String> pdtHashMap=new HashMap<>();
+		pdtHashMap.put(pdt1, "Tv");
+		pdtHashMap.put(pdt2, "Dvd");
+		for(Map.Entry<Product, String> entry : pdtHashMap.entrySet())
+		{
+			System.out.println(entry.getKey()+"=="+entry.getValue());
+		}
+		
+      
+  
+        
+        } 
+	}
+    
+
+	
+
+
+/*Addproduct.java*/
+package sample;
+import java.util.*;
+import java.util.HashMap;
+public class AddProduct extends Start {
+	public void add() {
+	
+		Scanner cc=new Scanner(System.in);
+		System.out.println("Enter the productname");
+		
+	
+		
+	}
+
+}
+
+/*FindbyID.java*/
+package sample;
+
+public class FindbyId extends Start{
+	
+	public void findbyid()
+	{
+		
+	
+	}
+
+}
+
+
