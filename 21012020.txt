@@ -1,0 +1,73 @@
+1. Difference between enumeration and enum-
+	Enumeration is an interface, an object that implements the Enumeration interface generates a series of elements, one at a time. Successive calls to the nextElement method return successive elements of the series.
+	for (Enumeration<E> e = v.elements(); e.hasMoreElements();)
+     	 System.out.println(e.nextElement());
+  
+	Enum is a data type, an enum type is a special data type that enables for a variable to be a set of predefined constants. The variable must be equal to one of the values that have been predefined for it.
+	public enum Day {
+   	 SUNDAY, MONDAY, TUESDAY, WEDNESDAY,
+    	THURSDAY, FRIDAY, SATURDAY 
+	}
+
+2. Changing color of nested div-
+	<servlet>
+	.colorr:nth-child(1)
+	{
+		Color:red;
+	}
+	</servlet>
+	
+	<div class="colorr">
+	hello,<span>Hii there</span><span>
+	<div>Letsbegin</div>
+
+3. Child selector-
+	Child Selector is used to match all the elements which are child of a specified element. It gives the relation between two elements. The element > element selector selects those elements which are the children of specific parent. The operand on the left side of > is the parent and the operand on the right is the children element.
+<!DOCTYPE html>  
+<html>  
+    <head>  
+        <title>  
+            CSS child Selector  
+        </title>  
+        <style>  
+            div > p {  
+                color:white;  
+                background: green;  
+                padding:2px;  
+            }  
+        </style>  
+    </head>  
+      
+    <body style = "text-align: center;">  
+        <div>  
+            <h2 style = "color:green;">  
+                CSS Child Selector  
+            </h2>  
+              
+            <p>  
+                A computer science portal.  
+            </p>  
+        </div>  
+          
+        <p> questions</p>  
+          
+        <p>This paragraph will not be styled.</p>  
+    </body>  
+</html> 
+
+4. Pseudo Class
+	A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, hover can be used to change a button's color when the user's pointer hovers over it.
+a:link {
+  color: #FF0000;
+}
+a:visited {
+  color: #00FF00;
+}
+a:hover {
+  color: #FF00FF;
+}
+a:active {
+  color: #0000FF;
+}
+ 
+
