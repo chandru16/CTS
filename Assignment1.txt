@@ -1,0 +1,106 @@
+/*Assignment1*/
+import java.util.*;
+public class Assignment1 {
+
+	public static void main(String[] args) {
+		Scanner obj=new Scanner(System.in);
+		System.out.println("Input your name");
+		String myname=obj.nextLine();
+		System.out.println("Input your year of graduation");
+		int mygradyear=obj.nextInt();
+		System.out.println("My name is" + " "+ myname +" "+"and I'll graduate in" +" "+ mygradyear);
+		
+
+	}
+
+}
+
+
+/*Assignment2*/
+import java.util.*;
+public class Assignment2 {
+
+	public static void main(String[] args) {
+		Scanner obj=new Scanner(System.in);
+		System.out.println("Input your name");
+		int mygradyear=0;
+		String myname=obj.nextLine();
+		try
+		{
+			System.out.println("Input your year of graduation");
+			 mygradyear=obj.nextInt();
+		}
+		catch(Exception e)
+		{
+			System.out.println("Invalid input..try again");
+		
+			
+		}
+		System.out.println("My name is" + " "+ myname +"and I'll graduate in" +" "+ mygradyear);
+		
+
+	}
+
+}
+
+/*Assignment3*/
+package com.cts;
+
+import java.util.*;
+public class Assignment3 {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Are you ready for a quiz? Yes/No");
+		String replay=s.nextLine();
+		String ss=replay;
+		int count=0;
+		if(replay==ss)
+		{
+			System.out.println("Okay, here it comes");
+			System.out.println("Q1) What is the capital of India?");
+			System.out.println("1) Delhi");
+			System.out.println("2) Mumbai");
+			System.out.println("3) Chennai");
+			int q1=s.nextInt();
+			if(q1==1)
+			{
+				count=count+1;
+				System.out.println("Thats right");
+			}
+			
+			System.out.println("Q2) Can you store the value 'dog' in a variable of type int ");
+			System.out.println("1) Yes");
+			System.out.println("2) No");
+			int q2=s.nextInt();
+			if(q2==2)
+			{
+				count=count+1;
+				System.out.println("Thats right");
+			}
+			else
+			{
+				System.out.println("Sorry,'dog' is a String. ints can only store numbers");
+			}
+			
+			
+			System.out.println("Q3) What is the result of 9+9/3 ");
+			System.out.println("1) 5");
+			System.out.println("2) 12");
+			System.out.println("3) 15/3");
+			int q3=s.nextInt();
+			if(q2==2)
+			{
+				count=count+1;
+				System.out.println("Thats right");
+			}
+			System.out.println("Your Score is "+ " "+count+ " "+"out of 3");
+			System.out.println("Thanks for playing");
+			
+		}
+		
+		
+
+	}
+
+}

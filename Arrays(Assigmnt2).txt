@@ -1,0 +1,154 @@
+/*Code to capture all the integers and create an array. Output will be in sorted format*/
+
+package com.cts;
+import java.util.*;
+public class Assignment1 {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the number of integers you want to create as array");
+		int n=s.nextInt();
+		int a[]=new int[n];
+		System.out.println("Enter the Array elements");
+		for(int i=0;i<n;i++)
+		{
+			a[i]=s.nextInt();
+		}
+		Arrays.sort(a);
+		System.out.println("Array Elements after sorting"+ Arrays.toString(a);
+		
+		
+	}
+
+}
+
+/*Re-implementation of above code for floating point numbers*/
+
+package com.cts;
+import java.util.*;
+public class Assignment2 {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the number of integers you want to create as array");
+		int n=s.nextInt();
+		float a[]=new float[n];
+		System.out.println("Enter the Array elements");
+		for(int i=0;i<n;i++)
+		{
+			a[i]=s.nextFloat();
+		}
+		Arrays.sort(a);
+		System.out.println("Array Elements after sorting"+ Arrays.toString(a);
+		
+	}
+
+}
+
+/*Finding maximum and minimum integer of an array*/
+
+package com.cts;
+import java.util.*;
+public class Assignment3 {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the number of integers you want to create as array");
+		int n=s.nextInt();
+		int a[]=new int[n];
+		System.out.println("Enter the Array elements");
+		for(int i=0;i<n;i++)
+		{
+			a[i]=s.nextInt();
+		}
+		Arrays.sort(a);
+		System.out.println("Array Elements after sorting"+ Arrays.toString(a);
+		System.out.println("The Maximum Array element is"+a[n-1]);
+		System.out.println("The Minumum Array element is"+a[0]);
+		
+	}
+
+}
+
+/*Assignment4*/
+
+package com.cts;
+import java.util.*; 
+
+class Assignment4 { 
+	
+
+
+	public static void main(String[] args) 
+	{ 
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the number of integers you want to create as array");
+		int n=s.nextInt();
+		int arr[]=new int[n];
+		System.out.println("Enter the Array elements");
+		for(int i=0;i<n;i++)
+		{
+			arr[i]=s.nextInt();
+		}
+		System.out.println("Original Array: "+ Arrays.toString(arr)); 
+		System.out.println("Enter the index of element you want to remove");
+		int Index = s.nextInt();
+		if (arr == null || Index < 0 || Index >= arr.length) 
+		{ 
+	              System.out.println("Invalid index"); 
+	        } 
+		int[] anotherArray = new int[arr.length - 1]; 
+		for (int i = 0, k = 0; i < arr.length; i++) 
+		{ 				
+			if (i == Index)
+			        { 
+					continue; 
+				} 
+				anotherArray[k++] = arr[i]; 
+		} 
+		System.out.println("Resultant Array: "+ Arrays.toString(anotherArray)); 
+	} 
+} 
+
+
+/*Assignment5*/
+
+package com.cts;
+import java.util.*;
+public class Test5 {
+	public static void main(String[] args) 
+	{
+		int[] arr = { 1, 2, 4, 5 };
+		System.out.println("Array: "+ Arrays.toString(arr));
+		Scanner s =new Scanner(System.in);
+		System.out.println("Enter the index of element you want to add");
+		int Index = s.nextInt();
+		
+		if (arr == null || Index < 0 || Index >= arr.length) 
+		{ 
+	              System.out.println("Invalid index"); 
+	     } 
+		else
+		{
+			System.out.println("Enter the element you want to add");
+			int key=s.nextInt();
+			int[] result = new int[arr.length + 1];
+		
+		for (int i = 0; i < Index; i++) {
+			result[i] = arr[i];
+		}
+
+		result[Index] = key;
+
+		for (int i = Index + 1; i <= arr.length; i++) {
+			result[i] = arr[i - 1];
+		}
+		System.out.println("Resultant Array: "+ Arrays.toString(result));
+	}
+	}
+}
+
+
