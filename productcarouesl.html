@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom:0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+.carousel  {
+  width:700px;
+  height: 450px;
+}
+
+
+ .carousel-inner img {
+      width: 100%;
+      height: 100%;
+ 
+
+  }
+
+
+
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="register.html">Register</a>
+      </li>
+	<li class="nav-item">
+        <a class="nav-link" href="product.html">Product Carousel</a>
+      </li>
+	<li class="nav-item">
+        <a class="nav-link" href="productgrid.html">Product Grid</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+<br>
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+     <a href="dell6.html" ><img src="C:\Users\Dell\Pictures\dell2.jpg" alt="Los Angeles" width="1100" height="500"></a>
+	<div class="carousel-caption ">
+        <h4><b><p class="text-success">DELL I6</p></b></h4>
+        <p class="text-success">With an whooping 12GB RAM</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+    <a href="dell5.html" ><img src="C:\Users\Dell\Pictures\dell1.jpg" alt="Los Angeles" width="1100" height="500"></a>
+	<div class="carousel-caption ">
+        <h4><p class="text-success">DELL I5</p></h4>
+        <p class="text-success">With an whooping 16GB RAM</p>
+      </div>   
+    </div>
+  
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev bg-dark" href="#demo" data-slide="prev" >
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next bg-dark" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<div class="space"></div>
+<div class="footer">
+  <p>DELL © 1996-2020 dellshopping@gmail.com www.dellshopping.com</p>
+</div>
+  
