@@ -1,0 +1,8 @@
+1 Whenever using -git status- Untracked files will be displayed
+2 E:\Ckk>"C:\Program Files\Git\usr\bin\touch.exe" .gitignore -- cmd for gitignore
+3 A text file will be created
+4 There just type untrackedfile_name like SpringRestsec.jar
+5 git add .gitignore
+6 git status
+7 It will display SpringRestsec.jar as .gitignore.
+8 File will be ignored 
