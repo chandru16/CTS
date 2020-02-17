@@ -2,7 +2,7 @@ create database project;
 
 use project;
 
-select * from person;
+
 select * from buyer_entity;
 select*from category_entity;
 select*from discounts_entity;
@@ -13,9 +13,6 @@ select*from sub_category_entity;
 select*from transaction_entity;
 
 
-insert into Person values(1001,"Tj","Ck");
-insert into Person values(1002,"Kum","Arun");
-insert into Person values(1003,"Neyveli","Rahul");
-insert into Person values(1004,"Chennai","Arjun");
+
 
 
