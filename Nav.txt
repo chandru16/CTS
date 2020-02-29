@@ -1,0 +1,1429 @@
+Microsoft Windows [Version 10.0.18363.657]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\DELL>ng new p-app
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+CREATE p-app/angular.json (3559 bytes)
+CREATE p-app/package.json (1282 bytes)
+CREATE p-app/README.md (1021 bytes)
+CREATE p-app/tsconfig.json (543 bytes)
+CREATE p-app/tslint.json (1953 bytes)
+CREATE p-app/.editorconfig (246 bytes)
+CREATE p-app/.gitignore (631 bytes)
+CREATE p-app/browserslist (429 bytes)
+CREATE p-app/karma.conf.js (1017 bytes)
+CREATE p-app/tsconfig.app.json (210 bytes)
+CREATE p-app/tsconfig.spec.json (270 bytes)
+CREATE p-app/src/favicon.ico (948 bytes)
+CREATE p-app/src/index.html (290 bytes)
+CREATE p-app/src/main.ts (372 bytes)
+CREATE p-app/src/polyfills.ts (2835 bytes)
+CREATE p-app/src/styles.css (80 bytes)
+CREATE p-app/src/test.ts (753 bytes)
+CREATE p-app/src/assets/.gitkeep (0 bytes)
+CREATE p-app/src/environments/environment.prod.ts (51 bytes)
+CREATE p-app/src/environments/environment.ts (662 bytes)
+CREATE p-app/src/app/app-routing.module.ts (246 bytes)
+CREATE p-app/src/app/app.module.ts (393 bytes)
+CREATE p-app/src/app/app.component.html (25705 bytes)
+CREATE p-app/src/app/app.component.spec.ts (1056 bytes)
+CREATE p-app/src/app/app.component.ts (209 bytes)
+CREATE p-app/src/app/app.component.css (0 bytes)
+CREATE p-app/e2e/protractor.conf.js (808 bytes)
+CREATE p-app/e2e/tsconfig.json (214 bytes)
+CREATE p-app/e2e/src/app.e2e-spec.ts (638 bytes)
+CREATE p-app/e2e/src/app.po.ts (301 bytes)
+√ Packages installed successfully.
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in browserslist.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in karma.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app-routing.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/styles.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.app.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.spec.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory
+    Successfully initialized git.
+
+C:\Users\DELL>cd p-app
+
+C:\Users\DELL\p-app>ng serve --open
+0% compiling
+Compiling @angular/core : es2015 as esm2015
+
+Compiling @angular/common : es2015 as esm2015
+
+Compiling @angular/platform-browser : es2015 as esm2015
+
+Compiling @angular/platform-browser-dynamic : es2015 as esm2015
+
+Compiling @angular/router : es2015 as esm2015
+
+chunk {main} main.js, main.js.map (main) 60.5 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 2.99 MB [initial] [rendered]
+Date: 2020-02-28T16:49:55.692Z - Hash: b7b07551be2ae8cff642 - Time: 27739ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: spawn cmd ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:19)
+    at onErrorNT (internal/child_process.js:415:16)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Emitted 'error' event at:
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:246:12)
+    at onErrorNT (internal/child_process.js:415:16)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+C:\Users\DELL\p-app>ng serve
+
+chunk {main} main.js, main.js.map (main) 60.5 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 2.99 MB [initial] [rendered]
+Date: 2020-02-28T16:55:12.131Z - Hash: b7b07551be2ae8cff642 - Time: 8128ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-02-28T16:57:07.334Z - Hash: 120e51ff3abb39a83c88
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 11.4 kB [initial] [rendered]
+Time: 322ms
+: Compiled successfully.
+
+Date: 2020-02-28T16:57:07.896Z - Hash: 120e51ff3abb39a83c88
+5 unchanged chunks
+
+Time: 193ms
+: Compiled successfully.
+^CTerminate batch job (Y/N)? N
+
+C:\Users\DELL\p-app>ng generate component navbar
+CREATE src/app/navbar/navbar.component.html (21 bytes)
+CREATE src/app/navbar/navbar.component.spec.ts (628 bytes)
+CREATE src/app/navbar/navbar.component.ts (275 bytes)
+CREATE src/app/navbar/navbar.component.css (0 bytes)
+UPDATE src/app/app.module.ts (475 bytes)
+
+C:\Users\DELL\p-app>ng serve
+
+chunk {main} main.js, main.js.map (main) 14 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 2.99 MB [initial] [rendered]
+Date: 2020-02-28T16:59:49.321Z - Hash: 80085e7c6b1423c66c91 - Time: 7855ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-02-28T17:59:07.758Z - Hash: ba725550634bd38cd212
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 13.3 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3 MB [initial] [rendered]
+Time: 1555ms
+
+ERROR in ./src/app/app.module.ts
+Module not found: Error: Can't resolve '@angular/material/toolbar' in 'C:\Users\DELL\p-app\src\app'
+
+    ERROR in src/app/app.module.ts:7:32 - error TS2307: Cannot find module '@angular/material/toolbar'.
+
+    7 import {MatToolbarModule} from '@angular/material/toolbar';
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Date: 2020-02-28T18:00:01.396Z - Hash: 6d4950b642c306861dbb
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 13.3 kB [initial] [rendered]
+Time: 248ms
+
+ERROR in ./src/app/app.module.ts
+Module not found: Error: Can't resolve '@angular/material/toolbar' in 'C:\Users\DELL\p-app\src\app'
+
+    ERROR in src/app/app.module.ts:3:32 - error TS2307: Cannot find module '@angular/material/toolbar'.
+
+    3 import {MatToolbarModule} from '@angular/material/toolbar';
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Date: 2020-02-28T18:01:22.269Z - Hash: 5bbc61777f46bff20c81
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 14 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 2.99 MB [initial] [rendered]
+Time: 1590ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:02:06.205Z - Hash: 6d4950b642c306861dbb
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 13.3 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3 MB [initial] [rendered]
+Time: 1565ms
+
+ERROR in ./src/app/app.module.ts
+Module not found: Error: Can't resolve '@angular/material/toolbar' in 'C:\Users\DELL\p-app\src\app'
+
+    ERROR in src/app/app.module.ts:3:32 - error TS2307: Cannot find module '@angular/material/toolbar'.
+
+    3 import {MatToolbarModule} from '@angular/material/toolbar';
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Date: 2020-02-28T18:02:55.692Z - Hash: 6d4950b642c306861dbb
+5 unchanged chunks
+
+Time: 239ms
+
+ERROR in ./src/app/app.module.ts
+Module not found: Error: Can't resolve '@angular/material/toolbar' in 'C:\Users\DELL\p-app\src\app'
+
+Date: 2020-02-28T18:02:56.132Z - Hash: 6d4950b642c306861dbb
+5 unchanged chunks
+
+Time: 135ms
+
+ERROR in ./src/app/app.module.ts
+Module not found: Error: Can't resolve '@angular/material/toolbar' in 'C:\Users\DELL\p-app\src\app'
+
+    ERROR in src/app/app.module.ts:3:32 - error TS2307: Cannot find module '@angular/material/toolbar'.
+
+    3 import {MatToolbarModule} from '@angular/material/toolbar'
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    ERROR in src/app/app.module.ts:3:32 - error TS2307: Cannot find module '@angular/material/toolbar'.
+
+    3 import {MatToolbarModule} from '@angular/material/toolbar'
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+^CTerminate batch job (Y/N)? N
+
+C:\Users\DELL\p-app>npm install --save @angular/material
+npm WARN sass-loader@8.0.0 requires a peer of node-sass@^4.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN sass-loader@8.0.0 requires a peer of fibers@>= 3.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN webpack-subresource-integrity@1.3.4 requires a peer of html-webpack-plugin@^2.21.0 || ~3 || >=4.0.0-alpha.2 <5 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/material@9.1.0 requires a peer of @angular/cdk@9.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules\webpack-dev-server\node_modules\fsevents):npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @angular/material@9.1.0
+added 1 package and audited 15569 packages in 31.118s
+found 0 vulnerabilities
+
+
+C:\Users\DELL\p-app>ng serve
+
+chunk {main} main.js, main.js.map (main) 1.97 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 665 bytes [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 340 kB [initial] [rendered]
+Date: 2020-02-28T18:07:49.020Z - Hash: 4eb5fd0902fb0ebc4d1f - Time: 3880ms
+
+ERROR in The target entry-point "@angular/material/toolbar" has missing dependencies:
+ - @angular/cdk/platform
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+^CTerminate batch job (Y/N)? Y
+
+C:\Users\DELL\p-app>ng serve
+
+chunk {main} main.js, main.js.map (main) 1.97 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 665 bytes [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 340 kB [initial] [rendered]
+Date: 2020-02-28T18:09:47.270Z - Hash: 4eb5fd0902fb0ebc4d1f - Time: 4530ms
+
+ERROR in The target entry-point "@angular/material/toolbar" has missing dependencies:
+ - @angular/cdk/platform
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+^CTerminate batch job (Y/N)? Y
+
+C:\Users\DELL\p-app>npm install @angular/cdk
+npm WARN sass-loader@8.0.0 requires a peer of node-sass@^4.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN sass-loader@8.0.0 requires a peer of fibers@>= 3.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN webpack-subresource-integrity@1.3.4 requires a peer of html-webpack-plugin@^2.21.0 || ~3 || >=4.0.0-alpha.2 <5 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules\webpack-dev-server\node_modules\fsevents):npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @angular/cdk@9.1.0
+added 2 packages from 1 contributor and audited 15571 packages in 23.079s
+found 0 vulnerabilities
+
+
+C:\Users\DELL\p-app>ng serve
+0% compiling
+Compiling @angular/cdk/keycodes : es2015 as esm2015
+
+Compiling @angular/cdk/platform : es2015 as esm2015
+
+Compiling @angular/cdk/observers : es2015 as esm2015
+
+Compiling @angular/cdk/a11y : es2015 as esm2015
+
+Compiling @angular/cdk/bidi : es2015 as esm2015
+
+Compiling @angular/animations : es2015 as esm2015
+
+Compiling @angular/animations/browser : es2015 as esm2015
+
+Compiling @angular/platform-browser/animations : es2015 as esm2015
+
+Compiling @angular/forms : es2015 as esm2015
+
+Compiling @angular/material/core : es2015 as esm2015
+
+Compiling @angular/material/toolbar : es2015 as esm2015
+
+chunk {main} main.js, main.js.map (main) 14.8 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.65 MB [initial] [rendered]
+Date: 2020-02-28T18:12:11.977Z - Hash: fe00fc820553e48970f7 - Time: 24690ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-02-28T18:12:12.780Z - Hash: fe00fc820553e48970f7
+5 unchanged chunks
+
+Time: 319ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:13:04.512Z - Hash: ac35c5e8ad00e0df31e1
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 14.8 kB [initial] [rendered]
+Time: 295ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:13:17.556Z - Hash: ac35c5e8ad00e0df31e1
+5 unchanged chunks
+
+Time: 237ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:13:18.003Z - Hash: ac35c5e8ad00e0df31e1
+5 unchanged chunks
+
+Time: 149ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:14:46.079Z - Hash: ac35c5e8ad00e0df31e1
+5 unchanged chunks
+
+Time: 286ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:14:46.838Z - Hash: ac35c5e8ad00e0df31e1
+5 unchanged chunks
+
+Time: 384ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:29:00.024Z - Hash: 0f8bc83a176e87644fec
+5 unchanged chunks
+
+Time: 183ms
+
+ERROR in Errors parsing template: Unexpected closing tag "span". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags ("<mat-toolbar color="primary">
+    <span>My App</span>[ERROR ->]</span
+    ></mat-toolbar>"): C:/Users/DELL/p-app/src/app/navbar/navbar.component.html@1:23
+C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\core\src\compiler.js:342
+                finally { if (e_2) throw e_2.error; }
+                                   ^
+
+Error: Errors parsing template: Unexpected closing tag "span". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags ("<mat-toolbar color="primary">
+    <span>My App</span>[ERROR ->]</span
+    ></mat-toolbar>"): C:/Users/DELL/p-app/src/app/navbar/navbar.component.html@1:23
+    at ComponentDecoratorHandler.analyze (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\annotations\src\component.js:208:23)
+    at TraitCompiler.analyzeTrait (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:341:40)
+    at analyze (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:293:58)
+    at _loop_1 (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:315:21)
+    at TraitCompiler.analyzeClass (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:321:35)
+    at visit (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:103:27)
+    at visitNodes (C:\Users\DELL\p-app\node_modules\typescript\lib\typescript.js:17774:30)
+    at Object.forEachChild (C:\Users\DELL\p-app\node_modules\typescript\lib\typescript.js:18007:24)
+    at visit (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:105:20)
+    at TraitCompiler.analyze (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:107:13)
+^CTerminate batch job (Y/N)? N
+
+C:\Users\DELL\p-app>
+
+C:\Users\DELL\p-app>ng serve
+
+chunk {main} main.js, main.js.map (main) 1.97 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 665 bytes [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 340 kB [initial] [rendered]
+Date: 2020-02-28T18:29:25.293Z - Hash: d73e63eecb52c561a5d7 - Time: 3452ms
+
+ERROR in Errors parsing template: Unexpected closing tag "span". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags ("<mat-toolbar color="primary">
+    <span>My App</span>[ERROR ->]</span
+    ></mat-toolbar>"): C:/Users/DELL/p-app/src/app/navbar/navbar.component.html@1:23
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+^CTerminate batch job (Y/N)? Y
+
+C:\Users\DELL\p-app>ng serve
+
+chunk {main} main.js, main.js.map (main) 15 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.65 MB [initial] [rendered]
+Date: 2020-02-28T18:30:10.466Z - Hash: caec5ba8474efc450bde - Time: 8649ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-02-28T18:32:39.905Z - Hash: 9558c9fbd30405bf6745
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 15.3 kB [initial] [rendered]
+Time: 366ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:43:01.529Z - Hash: 97c12fbbaa7a62950bd2
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 16.3 kB [initial] [rendered]
+Time: 292ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:45:00.439Z - Hash: 7d92a5e35a00c9a05e33
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 15.3 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.66 MB [initial] [rendered]
+Time: 1658ms
+
+ERROR in ./src/app/app.module.ts 20:12-27
+"export 'MatButtonModule' was not found in '@angular/material/toolbar'
+ERROR in ./src/app/app.module.ts 21:12-25
+"export 'MatIconModule' was not found in '@angular/material/toolbar'
+
+    ERROR in src/app/app.module.ts:3:27 - error TS2305: Module '"C:/Users/DELL/p-app/node_modules/@angular/material/toolbar"' has no exported member 'MatButtonModule'.
+
+    3 import {MatToolbarModule, MatButtonModule, MatIconModule} from '@angular/material/toolbar'
+                                ~~~~~~~~~~~~~~~
+    src/app/app.module.ts:3:44 - error TS2305: Module '"C:/Users/DELL/p-app/node_modules/@angular/material/toolbar"' has no exported member 'MatIconModule'.
+
+    3 import {MatToolbarModule, MatButtonModule, MatIconModule} from '@angular/material/toolbar'
+                                                 ~~~~~~~~~~~~~
+
+
+Date: 2020-02-28T18:45:27.664Z - Hash: a8c4ff6abce28aff41bc
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 15.4 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.66 MB [initial] [rendered]
+Time: 1623ms
+: Compiled successfully.
+
+    ERROR in src/app/app.module.ts:3:64 - error TS2306: File 'C:/Users/DELL/p-app/node_modules/@angular/material/index.d.ts' is not a module.
+
+    3 import {MatToolbarModule, MatButtonModule, MatIconModule} from '@angular/material'
+                                                                     ~~~~~~~~~~~~~~~~~~~
+
+
+Date: 2020-02-28T18:46:31.310Z - Hash: a8c4ff6abce28aff41bc
+5 unchanged chunks
+
+Time: 328ms
+: Compiled successfully.
+
+    ERROR in src/app/app.module.ts:3:64 - error TS2306: File 'C:/Users/DELL/p-app/node_modules/@angular/material/index.d.ts' is not a module.
+
+    3 import {MatToolbarModule, MatButtonModule, MatIconModule} from '@angular/material';
+                                                                     ~~~~~~~~~~~~~~~~~~~
+
+
+Date: 2020-02-28T18:46:32.520Z - Hash: a8c4ff6abce28aff41bc
+5 unchanged chunks
+
+Time: 161ms
+: Compiled successfully.
+
+    ERROR in src/app/app.module.ts:3:64 - error TS2306: File 'C:/Users/DELL/p-app/node_modules/@angular/material/index.d.ts' is not a module.
+
+    3 import {MatToolbarModule, MatButtonModule, MatIconModule} from '@angular/material';
+                                                                     ~~~~~~~~~~~~~~~~~~~
+
+^CTerminate batch job (Y/N)? Y
+
+C:\Users\DELL\p-app>npm i -g @angular/material --save
+npm WARN @angular/material@9.1.0 requires a peer of @angular/animations@^9.0.0 || ^10.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/material@9.1.0 requires a peer of @angular/cdk@9.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/material@9.1.0 requires a peer of @angular/core@^9.0.0 || ^10.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/material@9.1.0 requires a peer of @angular/common@^9.0.0 || ^10.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/material@9.1.0 requires a peer of @angular/forms@^9.0.0 || ^10.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/material@9.1.0 requires a peer of tslib@^1.9.0 but none is installed. You must install peer dependencies yourself.
+
++ @angular/material@9.1.0
+added 1 package in 8.09s
+
+C:\Users\DELL\p-app>ng serve
+
+chunk {main} main.js, main.js.map (main) 1.97 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 665 bytes [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 340 kB [initial] [rendered]
+Date: 2020-02-28T18:48:52.892Z - Hash: 1f71458520d0efeace23 - Time: 4818ms
+
+ERROR in src/app/app.module.ts:3:64 - error TS2306: File 'C:/Users/DELL/p-app/node_modules/@angular/material/index.d.ts' is not a module.
+
+3 import {MatToolbarModule, MatButtonModule, MatIconModule} from '@angular/material';
+                                                                 ~~~~~~~~~~~~~~~~~~~
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+0% compiling
+Compiling @angular/material/button : es2015 as esm2015
+
+Compiling @angular/common/http : es2015 as esm2015
+
+Compiling @angular/material/icon : es2015 as esm2015
+30% building 2/2 modules 0 active
+    ERROR in node_modules/@angular/material/button/button-module.d.ts:8:22 - error NG6002: Appears in the NgModule.imports of AppModule, but could not be resolved to an NgModule class.
+
+    This likely means that the library (@angular/material/button) which declares MatButtonModule has not been processed correctly by ngcc, or is not compatible with Angular Ivy. Check if a newer version of the library is available, and update if so. Also consider checking with the library's authors to see if the library is expected to be compatible with Ivy.
+    8 export declare class MatButtonModule {
+                           ~~~~~~~~~~~~~~~
+    node_modules/@angular/material/icon/icon-module.d.ts:8:22 - error NG6002: Appears in the NgModule.imports of AppModule, but could not be resolved to an NgModule class.
+
+    This likely means that the library (@angular/material/icon) which declares MatIconModule has not been processed correctly by ngcc, or is not compatible with Angular Ivy. Check if a newer version of the library is available, and update if so. Also consider checking with the library's authors to see if the library is expected to be compatible with Ivy.
+
+    8 export declare class MatIconModule {
+                           ~~~~~~~~~~~~~
+
+
+Date: 2020-02-28T18:53:06.991Z - Hash: 305fdf38bc31a2682ec0
+2 unchanged chunks
+chunk {main} main.js, main.js.map (main) 17.5 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.85 MB [initial] [rendered]
+Time: 16353ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:53:07.985Z - Hash: 305fdf38bc31a2682ec0
+5 unchanged chunks
+
+Time: 572ms
+: Compiled successfully.
+
+    ERROR in node_modules/@angular/material/button/button-module.d.ts:8:22 - error NG6002: Appears in the NgModule.imports of AppModule, but could not be resolved to an NgModule class.
+
+    This likely means that the library (@angular/material/button) which declares MatButtonModule has not been processed correctly by ngcc, or is not compatible with Angular Ivy. Check if a newer version of the library is available, and update if so. Also consider checking with the library's authors to see if the library is expected to be compatible with Ivy.
+    8 export declare class MatButtonModule {
+                           ~~~~~~~~~~~~~~~
+    node_modules/@angular/material/icon/icon-module.d.ts:8:22 - error NG6002: Appears in the NgModule.imports of AppModule, but could not be resolved to an NgModule class.
+
+    This likely means that the library (@angular/material/icon) which declares MatIconModule has not been processed correctly by ngcc, or is not compatible with Angular Ivy. Check if a newer version of the library is available, and update if so. Also consider checking with the library's authors to see if the library is expected to be compatible with Ivy.
+
+    8 export declare class MatIconModule {
+                           ~~~~~~~~~~~~~
+
+
+Date: 2020-02-28T18:54:10.236Z - Hash: 305fdf38bc31a2682ec0
+5 unchanged chunks
+
+Time: 315ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:54:10.910Z - Hash: 305fdf38bc31a2682ec0
+5 unchanged chunks
+
+Time: 275ms
+: Compiled successfully.
+95% emitting CopyPlugin
+    ERROR in node_modules/@angular/material/button/button-module.d.ts:8:22 - error NG6002: Appears in the NgModule.imports of AppModule, but could not be resolved to an NgModule class.
+
+    This likely means that the library (@angular/material/button) which declares MatButtonModule has not been processed correctly by ngcc, or is not compatible with Angular Ivy. Check if a newer version of the library is available, and update if so. Also consider checking with the library's authors to see if the library is expected to be compatible with Ivy.
+
+    8 export declare class MatButtonModule {
+                           ~~~~~~~~~~~~~~~
+    node_modules/@angular/material/icon/icon-module.d.ts:8:22 - error NG6002: Appears in the NgModule.imports of AppModule, but could not be resolved to an NgModule class.
+
+    This likely means that the library (@angular/material/icon) which declares MatIconModule has not been processed correctly by ngcc, or is not compatible with Angular Ivy. Check if a newer version of the library is available, and update if so. Also consider checking with the library's authors to see if the library is expected to be compatible with Ivy.
+
+    8 export declare class MatIconModule {
+                           ~~~~~~~~~~~~~
+
+
+Date: 2020-02-28T18:54:11.406Z - Hash: 305fdf38bc31a2682ec0
+5 unchanged chunks
+
+Time: 255ms
+: Compiled successfully.
+
+    ERROR in node_modules/@angular/material/button/button-module.d.ts:8:22 - error NG6002: Appears in the NgModule.imports of AppModule, but could not be resolved to an NgModule class.
+
+    This likely means that the library (@angular/material/button) which declares MatButtonModule has not been processed correctly by ngcc, or is not compatible with Angular Ivy. Check if a newer version of the library is available, and update if so. Also consider checking with the library's authors to see if the library is expected to be compatible with Ivy.
+
+    8 export declare class MatButtonModule {
+                           ~~~~~~~~~~~~~~~
+    node_modules/@angular/material/icon/icon-module.d.ts:8:22 - error NG6002: Appears in the NgModule.imports of AppModule, but could not be resolved to an NgModule class.
+
+    This likely means that the library (@angular/material/icon) which declares MatIconModule has not been processed correctly by ngcc, or is not compatible with Angular Ivy. Check if a newer version of the library is available, and update if so. Also consider checking with the library's authors to see if the library is expected to be compatible with Ivy.
+
+    8 export declare class MatIconModule {
+                           ~~~~~~~~~~~~~
+
+
+    ERROR in node_modules/@angular/material/button/button-module.d.ts:8:22 - error NG6002: Appears in the NgModule.imports of AppModule, but could not be resolved to an NgModule class.
+
+    This likely means that the library (@angular/material/button) which declares MatButtonModule has not been processed correctly by ngcc, or is not compatible with Angular Ivy. Check if a newer version of the library is available, and update if so. Also consider checking with the library's authors to see if the library is expected to be compatible with Ivy.
+
+    8 export declare class MatButtonModule {
+                           ~~~~~~~~~~~~~~~
+    node_modules/@angular/material/icon/icon-module.d.ts:8:22 - error NG6002: Appears in the NgModule.imports of AppModule, but could not be resolved to an NgModule class.
+
+    This likely means that the library (@angular/material/icon) which declares MatIconModule has not been processed correctly by ngcc, or is not compatible with Angular Ivy. Check if a newer version of the library is available, and update if so. Also consider checking with the library's authors to see if the library is expected to be compatible with Ivy.
+
+    8 export declare class MatIconModule {
+                           ~~~~~~~~~~~~~
+
+^CTerminate batch job (Y/N)? Y
+
+C:\Users\DELL\p-app>ng serve
+
+chunk {main} main.js, main.js.map (main) 17.5 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.85 MB [initial] [rendered]
+Date: 2020-02-28T18:56:57.527Z - Hash: 305fdf38bc31a2682ec0 - Time: 8566ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-02-28T18:57:55.508Z - Hash: 9616bcd8e239f1a214ed
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 17.7 kB [initial] [rendered]
+Time: 479ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:57:56.014Z - Hash: 9616bcd8e239f1a214ed
+5 unchanged chunks
+
+Time: 253ms
+: Compiled successfully.
+
+Date: 2020-02-28T18:59:40.572Z - Hash: dfa71868cfeababa23e6
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 17.7 kB [initial] [rendered]
+Time: 275ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:00:15.157Z - Hash: 1ae6adc475ad82a5aa3e
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 17.9 kB [initial] [rendered]
+Time: 259ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:04:00.338Z - Hash: 8947da653582fda3723e
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.1 kB [initial] [rendered]
+Time: 291ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:05:15.846Z - Hash: 4c949b10e21a0ab3b46b
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19.9 kB [initial] [rendered]
+Time: 365ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:06:18.537Z - Hash: 921fe033a8a3f570b74e
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19.4 kB [initial] [rendered]
+Time: 269ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:07:44.661Z - Hash: 74574d250ba421444e67
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19.5 kB [initial] [rendered]
+Time: 281ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:08:32.761Z - Hash: 52231a3d414db5b887d0
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.2 kB [initial] [rendered]
+Time: 266ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:08:55.374Z - Hash: bb44f1c4321a96b280fe
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.1 kB [initial] [rendered]
+Time: 239ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:08:56.091Z - Hash: bb44f1c4321a96b280fe
+5 unchanged chunks
+
+Time: 254ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:10:15.413Z - Hash: df32cefe8cf250a1f707
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.4 kB [initial] [rendered]
+Time: 286ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:10:16.045Z - Hash: df32cefe8cf250a1f707
+5 unchanged chunks
+
+Time: 279ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:10:26.686Z - Hash: c5d5b1b1ee5a55b90eed
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.3 kB [initial] [rendered]
+Time: 212ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:10:27.398Z - Hash: c5d5b1b1ee5a55b90eed
+5 unchanged chunks
+
+Time: 292ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:12:03.391Z - Hash: 7686951e5db8aab53b86
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.5 kB [initial] [rendered]
+Time: 274ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:12:04.001Z - Hash: 7686951e5db8aab53b86
+5 unchanged chunks
+
+Time: 241ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:13:17.660Z - Hash: ed920cf3b83064a86914
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.8 kB [initial] [rendered]
+Time: 268ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:13:18.066Z - Hash: ed920cf3b83064a86914
+5 unchanged chunks
+
+Time: 173ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:14:11.735Z - Hash: 7adc9bee7f6b22d0c33d
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19.1 kB [initial] [rendered]
+Time: 227ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:14:12.332Z - Hash: 7adc9bee7f6b22d0c33d
+5 unchanged chunks
+
+Time: 265ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:14:12.830Z - Hash: 7adc9bee7f6b22d0c33d
+5 unchanged chunks
+
+Time: 216ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:14:46.554Z - Hash: 7dc27b3d91233f6dbc8e
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19.1 kB [initial] [rendered]
+Time: 237ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:14:48.301Z - Hash: 7522e9d6e10081a30a7e
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19.1 kB [initial] [rendered]
+Time: 255ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:14:48.862Z - Hash: 7522e9d6e10081a30a7e
+5 unchanged chunks
+
+Time: 177ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:15:37.820Z - Hash: 213e5cd1c3cc21223656
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19 kB [initial] [rendered]
+Time: 291ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:15:38.608Z - Hash: 213e5cd1c3cc21223656
+5 unchanged chunks
+
+Time: 302ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:15:39.044Z - Hash: 213e5cd1c3cc21223656
+5 unchanged chunks
+
+Time: 186ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:16:35.814Z - Hash: a079351a9b8f02fd7bbd
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19.5 kB [initial] [rendered]
+Time: 239ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:16:36.379Z - Hash: a079351a9b8f02fd7bbd
+5 unchanged chunks
+
+Time: 233ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:16:55.882Z - Hash: fb115319b3ba36ef0971
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 19.5 kB [initial] [rendered]
+Time: 298ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:16:56.605Z - Hash: fb115319b3ba36ef0971
+5 unchanged chunks
+
+Time: 172ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:20:00.544Z - Hash: e978d293f1c51e8bd9f1
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.5 kB [initial] [rendered]
+Time: 233ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:20:26.300Z - Hash: 0ab8f60742ad97547af3
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.5 kB [initial] [rendered]
+Time: 341ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:20:26.714Z - Hash: 0ab8f60742ad97547af3
+5 unchanged chunks
+
+Time: 166ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:21:27.927Z - Hash: 717f2d7a62ff7ebc4be2
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.4 kB [initial] [rendered]
+Time: 210ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:21:48.542Z - Hash: b0548ede16b8cf358d45
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.3 kB [initial] [rendered]
+Time: 217ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:23:54.024Z - Hash: b0548ede16b8cf358d45
+5 unchanged chunks
+
+Time: 141ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:23:54.361Z - Hash: b0548ede16b8cf358d45
+5 unchanged chunks
+
+Time: 100ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:23:54.703Z - Hash: b0548ede16b8cf358d45
+5 unchanged chunks
+
+Time: 110ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:29:56.215Z - Hash: 2ab1bf5fb2c19ffb9343
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.4 kB [initial] [rendered]
+Time: 198ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:29:57.041Z - Hash: 2ab1bf5fb2c19ffb9343
+5 unchanged chunks
+
+Time: 348ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:30:19.675Z - Hash: f9f8ccdc3c117f9e792a
+5 unchanged chunks
+
+Time: 169ms
+
+ERROR in Errors parsing template: Unexpected closing tag "span". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags ("
+<mat-toolbar color="primary">
+    <span><mat-icon>fireplace</mat-icon><h3>Fitness Trainer<h3>[ERROR ->]</span>
+<div class="spacer"></div>
+<a mat-button>Home</a>
+"): C:/Users/DELL/p-app/src/app/navbar/navbar.component.html@2:63, Unexpected closing tag "mat-toolbar". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags ("
+<a mat-button>View Appointment</a>
+<a mat-button>Contact Us</a>
+[ERROR ->]</mat-toolbar>
+"): C:/Users/DELL/p-app/src/app/navbar/navbar.component.html@8:0
+
+Date: 2020-02-28T19:30:20.101Z - Hash: f9f8ccdc3c117f9e792a
+5 unchanged chunks
+
+Time: 94ms
+
+ERROR in Errors parsing template: Unexpected closing tag "span". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags ("
+<mat-toolbar color="primary">
+    <span><mat-icon>fireplace</mat-icon><h3>Fitness Trainer<h3>[ERROR ->]</span>
+<div class="spacer"></div>
+<a mat-button>Home</a>
+"): C:/Users/DELL/p-app/src/app/navbar/navbar.component.html@2:63, Unexpected closing tag "mat-toolbar". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags ("
+<a mat-button>View Appointment</a>
+<a mat-button>Contact Us</a>
+[ERROR ->]</mat-toolbar>
+"): C:/Users/DELL/p-app/src/app/navbar/navbar.component.html@8:0
+C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\core\src\compiler.js:342
+                finally { if (e_2) throw e_2.error; }
+                                   ^
+
+Error: Errors parsing template: Unexpected closing tag "span". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags ("
+<mat-toolbar color="primary">
+    <span><mat-icon>fireplace</mat-icon><h3>Fitness Trainer<h3>[ERROR ->]</span>
+<div class="spacer"></div>
+<a mat-button>Home</a>
+"): C:/Users/DELL/p-app/src/app/navbar/navbar.component.html@2:63, Unexpected closing tag "mat-toolbar". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags ("
+<a mat-button>View Appointment</a>
+<a mat-button>Contact Us</a>
+[ERROR ->]</mat-toolbar>
+"): C:/Users/DELL/p-app/src/app/navbar/navbar.component.html@8:0
+    at ComponentDecoratorHandler.analyze (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\annotations\src\component.js:208:23)
+    at TraitCompiler.analyzeTrait (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:341:40)
+    at analyze (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:293:58)
+    at _loop_1 (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:315:21)
+    at TraitCompiler.analyzeClass (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:321:35)
+    at visit (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:103:27)
+    at visitNodes (C:\Users\DELL\p-app\node_modules\typescript\lib\typescript.js:17774:30)
+    at Object.forEachChild (C:\Users\DELL\p-app\node_modules\typescript\lib\typescript.js:18007:24)
+    at visit (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:105:20)
+    at TraitCompiler.analyze (C:\Users\DELL\p-app\node_modules\@angular\compiler-cli\src\ngtsc\transform\src\compilation.js:107:13)
+
+Date: 2020-02-28T19:30:34.132Z - Hash: bc2be6edb15d7617c8e2
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.5 kB [initial] [rendered]
+Time: 1634ms
+
+WARNING in AngularCompilerPlugin: Forked Type Checker exited unexpectedly. Falling back to type checking on main thread.
+: Compiled successfully.
+
+Date: 2020-02-28T19:30:35.619Z - Hash: 57dc5614acc11899945a
+5 unchanged chunks
+
+Time: 1249ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:30:59.042Z - Hash: bc88681ec75a7ae61d0d
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.5 kB [initial] [rendered]
+Time: 1283ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:31:00.629Z - Hash: bc88681ec75a7ae61d0d
+5 unchanged chunks
+
+Time: 1321ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:31:19.370Z - Hash: 418325b9a52d3a5be1f9
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.6 kB [initial] [rendered]
+Time: 1210ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:31:48.099Z - Hash: 2ab1bf5fb2c19ffb9343
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.4 kB [initial] [rendered]
+Time: 1231ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:31:49.601Z - Hash: 2ab1bf5fb2c19ffb9343
+5 unchanged chunks
+
+Time: 1268ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:32:40.895Z - Hash: 31efe76711e00ec66bc5
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.5 kB [initial] [rendered]
+Time: 1146ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:32:42.288Z - Hash: 31efe76711e00ec66bc5
+5 unchanged chunks
+
+Time: 1157ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:32:57.539Z - Hash: 77ef54aea7bf006e93ba
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.6 kB [initial] [rendered]
+Time: 1003ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:33:41.327Z - Hash: 31efe76711e00ec66bc5
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.5 kB [initial] [rendered]
+Time: 1259ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:33:42.867Z - Hash: 31efe76711e00ec66bc5
+5 unchanged chunks
+
+Time: 1294ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:34:24.539Z - Hash: 642f8eb0dc0f60ed5dfa
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.7 kB [initial] [rendered]
+Time: 1120ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:34:26.143Z - Hash: 642f8eb0dc0f60ed5dfa
+5 unchanged chunks
+
+Time: 1367ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:35:16.278Z - Hash: cde7d84878f49b11b6b7
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.8 kB [initial] [rendered]
+Time: 1312ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:35:17.887Z - Hash: cde7d84878f49b11b6b7
+5 unchanged chunks
+
+Time: 1370ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:35:35.709Z - Hash: aaf03200329909d08505
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.8 kB [initial] [rendered]
+Time: 1083ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:35:37.095Z - Hash: aaf03200329909d08505
+5 unchanged chunks
+
+Time: 1123ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:35:45.915Z - Hash: 0b285c0bbe08ad12cd30
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.8 kB [initial] [rendered]
+Time: 1054ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:35:47.201Z - Hash: 0b285c0bbe08ad12cd30
+5 unchanged chunks
+
+Time: 1055ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:36:14.228Z - Hash: ee07024dfc56fd1959d1
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.7 kB [initial] [rendered]
+Time: 1297ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:36:15.685Z - Hash: ee07024dfc56fd1959d1
+5 unchanged chunks
+
+Time: 1208ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:36:37.095Z - Hash: adc794b5bd2f96999d48
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.7 kB [initial] [rendered]
+Time: 1133ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:36:38.424Z - Hash: adc794b5bd2f96999d48
+5 unchanged chunks
+
+Time: 1090ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:38:58.329Z - Hash: 3140597118edcfb79173
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.7 kB [initial] [rendered]
+Time: 1382ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:38:59.756Z - Hash: 3140597118edcfb79173
+5 unchanged chunks
+
+Time: 1160ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:40:47.289Z - Hash: d1992f752dde78d5b62b
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.8 kB [initial] [rendered]
+Time: 1203ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:41:12.671Z - Hash: 9e59ec69a8293d85af0b
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.8 kB [initial] [rendered]
+Time: 1363ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:41:24.991Z - Hash: d1992f752dde78d5b62b
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 18.8 kB [initial] [rendered]
+Time: 1056ms
+: Compiled successfully.
+^CTerminate batch job (Y/N)? Y
+
+C:\Users\DELL\p-app>ng generate component ss
+CREATE src/app/ss/ss.component.html (17 bytes)
+CREATE src/app/ss/ss.component.spec.ts (600 bytes)
+CREATE src/app/ss/ss.component.ts (259 bytes)
+CREATE src/app/ss/ss.component.css (0 bytes)
+UPDATE src/app/app.module.ts (786 bytes)
+
+C:\Users\DELL\p-app>ng serve
+
+chunk {main} main.js, main.js.map (main) 21.8 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.85 MB [initial] [rendered]
+Date: 2020-02-28T19:49:06.965Z - Hash: 431da15ace0f4de83304 - Time: 8591ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-02-28T19:49:55.455Z - Hash: 57e41744c9fd763f6b84
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 21.8 kB [initial] [rendered]
+Time: 376ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:50:14.250Z - Hash: 6bdd6f4e621b706239f2
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 21.8 kB [initial] [rendered]
+Time: 264ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:50:25.618Z - Hash: 57e41744c9fd763f6b84
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 21.8 kB [initial] [rendered]
+Time: 312ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:50:28.556Z - Hash: 431da15ace0f4de83304
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 21.8 kB [initial] [rendered]
+Time: 258ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:50:29.018Z - Hash: 431da15ace0f4de83304
+5 unchanged chunks
+
+Time: 198ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:50:45.578Z - Hash: 2215575745caacffc681
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 22 kB [initial] [rendered]
+Time: 207ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:50:46.304Z - Hash: 2215575745caacffc681
+5 unchanged chunks
+
+Time: 266ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:51:27.329Z - Hash: 431da15ace0f4de83304
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 21.8 kB [initial] [rendered]
+Time: 317ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:51:28.126Z - Hash: 431da15ace0f4de83304
+5 unchanged chunks
+
+Time: 323ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:51:28.584Z - Hash: 431da15ace0f4de83304
+5 unchanged chunks
+
+Time: 206ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:52:10.094Z - Hash: 5efed13c7e3f49e443cc
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 21.8 kB [initial] [rendered]
+Time: 258ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:52:10.893Z - Hash: 5efed13c7e3f49e443cc
+5 unchanged chunks
+
+Time: 323ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:54:40.146Z - Hash: 213dfdb38f66745690fb
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 22.2 kB [initial] [rendered]
+Time: 243ms
+: Compiled successfully.
+
+Date: 2020-02-28T19:54:40.776Z - Hash: 213dfdb38f66745690fb
+5 unchanged chunks
+
+Time: 162ms
+: Compiled successfully.
+^CTerminate batch job (Y/N)? Y
+
+C:\Users\DELL\p-app>ng serve
+
+chunk {main} main.js, main.js.map (main) 22.2 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.85 MB [initial] [rendered]
+Date: 2020-02-28T19:56:57.644Z - Hash: 213dfdb38f66745690fb - Time: 8631ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+^CTerminate batch job (Y/N)? Y
+
+C:\Users\DELL\p-app>ng serve
+
+chunk {main} main.js, main.js.map (main) 22.2 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.85 MB [initial] [rendered]
+Date: 2020-02-29T01:28:17.431Z - Hash: 213dfdb38f66745690fb - Time: 16550ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-02-29T01:32:38.267Z - Hash: 5efed13c7e3f49e443cc
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 21.8 kB [initial] [rendered]
+Time: 385ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:33:17.814Z - Hash: 5efed13c7e3f49e443cc
+5 unchanged chunks
+
+Time: 305ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:34:00.401Z - Hash: 213dfdb38f66745690fb
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 22.2 kB [initial] [rendered]
+Time: 268ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:34:00.847Z - Hash: 213dfdb38f66745690fb
+5 unchanged chunks
+
+Time: 176ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:34:01.616Z - Hash: 213dfdb38f66745690fb
+5 unchanged chunks
+
+Time: 466ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:34:02.251Z - Hash: 213dfdb38f66745690fb
+5 unchanged chunks
+
+Time: 195ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:34:02.651Z - Hash: 213dfdb38f66745690fb
+5 unchanged chunks
+
+Time: 156ms
+: Compiled successfully.
+^CTerminate batch job (Y/N)? Y
+
+C:\Users\DELL\p-app>ng generate component sk
+CREATE src/app/sk/sk.component.html (17 bytes)
+CREATE src/app/sk/sk.component.spec.ts (600 bytes)
+CREATE src/app/sk/sk.component.ts (259 bytes)
+CREATE src/app/sk/sk.component.css (0 bytes)
+UPDATE src/app/app.module.ts (852 bytes)
+
+C:\Users\DELL\p-app>ng serve
+
+chunk {main} main.js, main.js.map (main) 24 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.85 MB [initial] [rendered]
+Date: 2020-02-29T01:38:21.244Z - Hash: 03e6faac0f80f44f3a02 - Time: 8676ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-02-29T01:49:28.573Z - Hash: 3754404c26039fe57d6f
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 24.3 kB [initial] [rendered]
+Time: 397ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:49:29.034Z - Hash: 3754404c26039fe57d6f
+5 unchanged chunks
+
+Time: 206ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:56:07.892Z - Hash: 6d166c38fa647e74202d
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 24.4 kB [initial] [rendered]
+Time: 340ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:56:08.344Z - Hash: 6d166c38fa647e74202d
+5 unchanged chunks
+
+Time: 203ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:57:09.492Z - Hash: e4a44a6dbc51c331a2f0
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 24.4 kB [initial] [rendered]
+Time: 236ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:57:10.145Z - Hash: e4a44a6dbc51c331a2f0
+5 unchanged chunks
+
+Time: 278ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:57:33.273Z - Hash: 6d166c38fa647e74202d
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 24.4 kB [initial] [rendered]
+Time: 272ms
+: Compiled successfully.
+
+Date: 2020-02-29T01:57:33.697Z - Hash: 6d166c38fa647e74202d
+5 unchanged chunks
+
+Time: 179ms
+: Compiled successfully.
+
+Date: 2020-02-29T02:05:41.592Z - Hash: 6d166c38fa647e74202d
+5 unchanged chunks
+
+Time: 241ms
+: Compiled successfully.
+
+Date: 2020-02-29T02:05:42.586Z - Hash: 6d166c38fa647e74202d
+5 unchanged chunks
+
+Time: 195ms
+: Compiled successfully.
+
+Date: 2020-02-29T02:05:43.317Z - Hash: 6d166c38fa647e74202d
+5 unchanged chunks
+
+Time: 153ms
+: Compiled successfully.
+
+Date: 2020-02-29T02:05:43.938Z - Hash: 6d166c38fa647e74202d
+5 unchanged chunks
+
+Time: 279ms
+: Compiled successfully.
+
+Date: 2020-02-29T02:06:06.707Z - Hash: 6d166c38fa647e74202d
+5 unchanged chunks
+
+Time: 251ms
+: Compiled successfully.
+
+Date: 2020-02-29T02:06:07.120Z - Hash: 6d166c38fa647e74202d
+5 unchanged chunks
+
+Time: 177ms
+: Compiled successfully.
+
+Date: 2020-02-29T02:12:38.399Z - Hash: f780b1f9bc89ec445982
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 24.4 kB [initial] [rendered]
+Time: 277ms
+: Compiled successfully.
+
+Date: 2020-02-29T02:12:38.978Z - Hash: f780b1f9bc89ec445982
+5 unchanged chunks
+
+Time: 338ms
+: Compiled successfully.
+
+Date: 2020-02-29T02:12:53.499Z - Hash: 6d166c38fa647e74202d
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 24.4 kB [initial] [rendered]
+Time: 226ms
+: Compiled successfully.
+^CTerminate batch job (Y/N)? Y
+
+C:\Users\DELL\p-app>npm i -g @angular/material --save
